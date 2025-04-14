@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>朵拉ㄟ心情日記</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>朵拉ㄟ心情日記</h1>
+
+  <form id="diary-form">
+    <label class="section-title">Today's mood：</label><br>
+    <select id="mood">
+      <option value="😄">開心</option>
+      <option value="😢">難過</option>
+      <option value="😠">生氣</option>
+      <option value="😶">放空</option>
+    </select><br><br>
+
+    <label class="section-title">Write something：</label><br>
+    <textarea id="entry" rows="5" cols="30" placeholder="how's your going?"></textarea><br><br>
+
+    <button type="submit">Saveee</button>
+  </form>
+
+  <h2>📔 Files</h2>
+  <ul id="diary-list"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
