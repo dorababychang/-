@@ -86,4 +86,15 @@ body {
     background-color: #ff6666;
     color: white;
   }
+#cat {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 100px;
+  z-index: 999;
+  transition: transform 0.3s ease;
+}
+#cat:hover {
+  transform: scale(1.1) rotate(5deg);
+}
   
