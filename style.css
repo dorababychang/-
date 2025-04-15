@@ -97,4 +97,62 @@ body {
 #cat:hover {
   transform: scale(1.1) rotate(5deg);
 }
+    #pics {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 300px;
+    z-index: 999;
+    transition: transform 0.3s ease;
+  }
+  #pics:hover {
+    transform: scale(1.1) rotate(5deg);}
   
+  #pics2 {
+    position: fixed;
+    bottom: 500px;
+    left: 200px;
+    width: 200px;
+    z-index: 999;
+    transition: transform 0.3s ease; }
+  #pics2:hover {
+    transform: scale(1.1) rotate(5deg);}
+  
+  #pics3 {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    width: 200px;
+    z-index: 999;
+    transition: transform 0.3s ease;}
+  #pics3:hover {
+    transform: scale(1.1) rotate(5deg);} 
+  
+  #pics4 {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 300px;
+    z-index: 999;
+    transition: transform 0.3s ease; }
+  #pics4:hover {
+    transform: scale(1.1) rotate(5deg);}
+    body {
+      max-width: 600px;
+      margin: auto;
+      padding: 1rem;
+      font-family: sans-serif;
+      background-color: #fffdf8;
+    }
+    
+    input, textarea {
+      width: 100%;
+      margin-bottom: 1rem;
+      font-size: 1rem;
+    }
+    
+    button {
+      width: 100%;
+      padding: 0.5rem;
+      font-size: 1rem;
+    }
